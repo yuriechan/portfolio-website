@@ -1,9 +1,14 @@
 body {
   font-family: unset;
+  font-style: oblique;
 }
 
 header {
   margin-top: 10em;
+}
+
+img {
+    height: 11em;
 }
 
 ul {
@@ -15,6 +20,22 @@ li {
     display: inline;
 }
 
-i {
+a {
+  color: black;
+  text-decoration: none !important;
+}
+
+.menu-title{
+  cursor: pointer;
+  transition: color 0.6s;
+  -webkit-transition: color 0.6s;
+}
+
+.menu-title:hover {
+  color: #9C6ADE;
+}
+
+
+i{
   color: #9C6ADE;
 }
