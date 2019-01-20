@@ -39,3 +39,14 @@ a {
 i{
   color: #9C6ADE;
 }
+
+img.portfolio {
+    box-shadow: 5px 5px 2px gainsboro;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+}
+
+img.portfolio:hover {
+    opacity: 0.8;
+}
