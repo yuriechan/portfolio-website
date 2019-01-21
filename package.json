@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriechan/portfolio-website.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Yurie Egawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuriechan/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/yuriechan/portfolio-website#readme"
+}
