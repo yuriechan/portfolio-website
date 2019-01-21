@@ -8,16 +8,16 @@ header {
 }
 
 img {
-    height: 11em;
+  height: 11em;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
   text-decoration: none !important;
 }
 
-.menu-title{
+.menu-title {
   cursor: pointer;
   transition: color 0.6s;
   -webkit-transition: color 0.6s;
@@ -35,20 +35,17 @@ a {
   color: #9C6ADE;
 }
 
-
-i{
+i {
   color: #9C6ADE;
 }
 
 img.portfolio {
-    box-shadow: 5px 5px 2px gainsboro;
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-    -webkit-transition: opacity 0.3s ease-in-out;
-
+  box-shadow: 5px 5px 2px gainsboro;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
 }
 
 img.portfolio:hover {
-    opacity: 0.8;
-
+  opacity: 0.8;
 }
